@@ -1,9 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <!--CDNS-->
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfolio</title>
-    </head>
-    <body>
-        <h1>Hola!</h1>
-    </body>
+</head>
+
+<body>
+    <!--NavBar-->
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <!-- Menú navbar en dispositivos moviles -->
+            <a class="navbar-brand" href="https://github.com/Erziok"><img src="img/github.png" class="logo-brand" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Icono hamburguesa -->
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <!-- Items y dropwdown del Navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" id="sobre-mi" href="#herramientas">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="registro" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Presentación -->
+    <br>
+    <div class="container">
+        <h1 class="text-center">Hola!</h1>
+        <br>
+        <img src="img/erziok.jpg" class="foto-erziok" width="184" height="184">
+        <br>
+        <p>Mi nombre es Eduardo, también conocido como Erziok</p>
+        <p>Tengo 22 años, soy de Chile y actualmente estoy cursando la carrera de Ingeniería en Informática</p>
+    </div>
+
+    <div class="container">
+        <br><br>
+        <hr>
+        <h1 class="text-center" id="herramientas">Algunos de los lenguajes y tecnologías que manejo:</h1>
+        <br><br>
+        
+    <div class="row container text-center">
+        <div class="col-4 col-md-4 col-lg-4 d-none d-md-block d-lg-block">
+            <div class="imagen">
+                <img src="img/javascript.png" width="184" height="184">
+            </div>
+            <h5>Javascript</h5>
+        </div>
+        <div class="col-4 col-md-4 col-lg-4 d-none d-md-block d-lg-block">
+            <div class="imagen">
+                <img src="img/html5.png" width="184" height="184">
+            </div>
+            <h5>HTML5</h5>
+        </div>
+        <div class="col-4 col-md-4 col-lg-4 d-none d-md-block d-lg-block">
+            <div class="imagen">
+                <img src="img/bootstrap.png" width="184" height="184">
+            </div>
+            <h5>Bootstrap</h5>
+        </div>
+    </div>
+    <br>
+    <div class="row container text-center">
+        <div class="col-12 col-md-12 col-lg-12 d-none d-md-block d-lg-block">
+            <div class="imagen">
+                <img src="img/java.png" width="184" height="184">
+            </div>
+            <h5>Java</h5>
+        </div>
+    </div>
+    <br><br>
+    <hr>
+    <h1 class="text-center">Proyectos en los que he trabajado:</h1>
+    <br>
+    <div class="card text-center">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Portal Repostero</h5>
+          <p class="card-text">Pagina web de repostería, permite visualizar diferentes productos categorizados.</p>
+          <p class="card-text">Lenguajes utilizados: HTML5 - CSS - Javascript.</p>
+          <a href="https://github.com/Erziok/Portal-repostero" class="btn btn-primary">Más información</a>
+        </div>
+        <div class="card-footer text-muted">
+          22/09/2020
+        </div>
+      </div>
+    <hr>
+    <br>
+    <h1 class="text-center" id="contacto">Redes sociales:</h1>
+    <br>
+    <div class="row container text-center">
+        <div class="col-12 col-md-12 col-lg-12 d-none d-md-block d-lg-block">
+            <a class="redes-sociales" href="https://github.com/Erziok"><img src="img/github-transparente.png" width="84" height="84"></a>
+        </div>
+    </div>
+    </div>
+
+    <footer class="page-footer font-small indigo" id="contenedor-footer">
+        <!-- Boton para redireccionar arriba de la pagina -->
+        <a href="#top" class="btn btn-outline-secundary btn-lg col-12 " id="btn-volver-inicio">
+            <i class="fas fa-angle-up"></i></a>
+        <div class="footer-copyright text-center py-3" id="footer">
+            <h4>© 2020 Copyright: Made by Erziok</h4>
+    </footer>
+
+
+    <!-- Scripts de JS y Bootstrap -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="/index/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

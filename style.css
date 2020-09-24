@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Margenes */
+.topmargin-lg{
+    margin-top: 60px;
+}
+
+.topmargin-sm{
+    margin-top: 30px;
+}
+
+.topmargin-xs{
+    margin-top: 15px;
+}
+/* Fin margenes */
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.btn i{
+    font-size: 14px;
+    margin-left: 1px;
+}
+
+/* Navbar */
+.navbar{
+    background-color: darkslategray;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0, .05);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: #ffffff;
+    font: bold;
+}
+
+.nav-link:hover{
+    color: #1a1a1a;
+}
+
+.logo-brand{
+    min-width: 80px;
+    max-width: 50px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.content-center{
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+/* Fin Navbar */
+
+
+/* Footer */
+#footer{
+    background-color:  #131a22;
+    
+}
+#contenedor-footer{
+    padding-top: 100px;
+}
+
+#contenedor-footer h4{
+    color: #E2EEF0;
+    font-size: 13px;
+}
+
+.texto-footer{
+    color: #ffffff;
+}
+/* Fin Footer */
+
+/* Volver inicio */
+#btn-volver-inicio{
+    background-color: darkslategray;
+    border-radius: 0;
+
+}
+#btn-volver-inicio i{
+    color: #fff;
+}
+/* Fin Volver inicio */
+
+p{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.foto-erziok{
+    display: block;
+    margin: auto;
+}
+
+h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.imagen{
+    width: 184;
+    height: 184;
+}
+
