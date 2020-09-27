@@ -31,17 +31,17 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- Icono hamburguesa -->
-                <ion-icon name="menu-outline"></ion-icon>
+                <i class="fas fa-bars"></i>
             </button>
 
             <!-- Items y dropwdown del Navbar -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" id="sobre-mi" href="#herramientas">Sobre mi</a>
+                        <a class="nav-link" id="sobre-mi" href="#herramientas"><p>Sobre mi</p></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="registro" href="#contacto">Contacto</a>
+                        <a class="nav-link" id="registro" href="#contacto"><p>Contacto</p></a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
     <div class="container">
         <h1 class="text-center">Hola!</h1>
         <br>
-        <img src="img/erziok.jpg" class="foto-erziok" width="184" height="184">
+        <img src="img/edu.jpg" class="foto-erziok rounded-circle" width="184" height="184">
         <br>
         <p>Mi nombre es Eduardo, también conocido como Erziok</p>
         <p>Tengo 22 años, soy de Chile y actualmente estoy cursando la carrera de Ingeniería en Informática</p>
@@ -65,79 +65,110 @@
         <h1 class="text-center" id="herramientas">Algunos de los lenguajes y tecnologías que manejo:</h1>
         <br><br>
 
-        <div class="text-center" id="footer-2">
-            <div class="row">
-                <hr class="clearfix w-100 d-md-none">
-                <div class="col-12 col-md-4 mx-auto">
-                    <ul class="list-unstyled">
-                        <li>
-                            <h2><img src="img/javascript.png" width="50" height="50"> Javascript</h2><br>
-                            <h2><img src="img/html5.png" width="50" height="50">HTML5</h2><br>
-                            <h2><img src="img/bootstrap.png" width="50" height="50">Bootstrap</h2><br>
-                            <h2><img src="img/java.png" width="50" height="50">Java</h2><br>
-                        </li>
-                    </ul>
-
-                </div>
+        <div class="row container text-center">
+            <div class="col-3 col-md-3 col-lg-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <img src="img/javascript.png" id="foto" width="70" height="70">
+                        <p> Javascript</a>
+                    </li>
+                </ul>
             </div>
+            <div class="col-3 col-md-3 col-lg-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <img src="img/html5.png" id="foto" width="70" height="70">
+                        <p> HTML5</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3 col-md-3 col-lg-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <img src="img/bootstrap.png" id="foto" width="70" height="70">
+                        <p> Bootstrap</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3 col-md-3 col-lg-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <img src="img/java.png" id="foto" width="70" height="70">
+                        <p> Java</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row container text-center">
+            <div class="col-12 col-md-12 col-lg-12">
+                <ul class="list-unstyled">
+                    <li>
+                        <img src="img/MySQL.png" id="foto" width="70" height="70">
+                        <p> MySQL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
 
-            <br><br>
-            <hr>
-            <h1 class="text-center">Proyectos en los que he trabajado:</h1>
-            <br>
-            <div class="card text-center">
-                <div class="card-header">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Portal Repostero</h5>
-                    <p class="card-text">Pagina web de repostería, permite visualizar diferentes productos
-                        categorizados.</p>
-                    <p class="card-text">Lenguajes utilizados: HTML5 - CSS - Javascript.</p>
-                    <a href="https://github.com/Erziok/Portal-repostero" class="btn btn-primary">Más información</a>
-                </div>
-                <div class="card-footer text-muted">
-                    22/09/2020
-                </div>
+        <br><br>
+        <hr>
+        <h1 class="text-center">Proyectos en los que he trabajado:</h1>
+        <br>
+        <div class="card text-center">
+            <div class="card-header">
             </div>
-            <br><br>
-            <div class="card text-center">
-                <div class="card-header">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">PharmaLink</h5>
-                    <p class="card-text">Proyecto de autoservicio en farmacias, desarrollado en NetBeans y MySQL.</p>
-                    <p class="card-text">Lenguajes y herramientas utilizadas: Java - MySQL.</p>
-                    <a href="https://github.com/razhe/PharmaLink" class="btn btn-primary">Más información</a>
-                </div>
-                <div class="card-footer text-muted">
-                    07/07/2020
-                </div>
+            <div class="card-body">
+                <h5 class="card-title">Portal Repostero</h5>
+                <p class="card-text">Pagina web de repostería, permite visualizar diferentes productos
+                    categorizados.</p>
+                <p class="card-text">Lenguajes utilizados: HTML5 - CSS - Javascript.</p>
+                <a href="https://github.com/Erziok/Portal-repostero" class="btn btn-primary">Más información</a>
             </div>
-            <hr>
-            <br>
-            <h1 class="text-center" id="contacto">Redes sociales:</h1>
-            <br>
-            <div class="row container text-center">
-                <div class="col-6 col-md-6 col-lg-6" style="text-align: right;">
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="https://github.com/Erziok"><img src="img/github-transparente.png"  width="70" height="70"></a>
-                            <p style="text-align: right;" id="github"> Github</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md-6 col-lg-6" style="text-align: left;">
-                    <ul class="list-unstyled">
-                        <li>
-                            <img src="img/discord.png" width="70" height="70">
-                            <p style="text-align: left;" id="discord"> Erziok#0001</p>
-                        </li>
-                    </ul>
-                </div>
+            <div class="card-footer text-muted">
+                22/09/2020
+            </div>
+        </div>
+        <br><br>
+        <div class="card text-center">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">PharmaLink</h5>
+                <p class="card-text">Proyecto de autoservicio en farmacias, desarrollado en NetBeans y MySQL.</p>
+                <p class="card-text">Lenguajes y herramientas utilizadas: Java - MySQL.</p>
+                <a href="https://github.com/razhe/PharmaLink" class="btn btn-primary">Más información</a>
+            </div>
+            <div class="card-footer text-muted">
+                15/05/2020
+            </div>
+        </div>
+        <hr>
+        <br>
+        <h1 class="text-center" id="contacto">Redes sociales:</h1>
+        <br>
+        <div class="row container text-center">
+            <div class="col-6 col-md-6 col-lg-6" style="text-align: right;">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://github.com/Erziok"><img src="img/github-transparente.png" width="70"
+                                height="70"></a>
+                        <p style="text-align: right;" id="github"> Github</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6" style="text-align: left;">
+                <ul class="list-unstyled">
+                    <li>
+                        <img src="img/discord.png" width="70" height="70">
+                        <p style="text-align: left;" id="discord"> Erziok#0001</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
+    </div>
+
 
     <footer class="page-footer font-small indigo" id="contenedor-footer">
         <!-- Boton para redireccionar arriba de la pagina -->
