@@ -18,6 +18,7 @@
     <!-- ScrollReveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfolio</title>
+    <link rel="icon" href="img/github_white.png" type="image/png" />
 </head>
 
 <body>
@@ -38,10 +39,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" id="sobre-mi" href="#herramientas"><p>Sobre mi</p></a>
+                        <a class="nav-link" id="sobre-mi" href="#herramientas">
+                            <p id="texto-nav"><i class="fas fa-user-edit"></i> Sobre mi</p>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="registro" href="#contacto"><p>Contacto</p></a>
+                        <a class="nav-link" id="registro" href="#contacto">
+                            <p id="texto-nav"><i class="far fa-address-book"></i> Contacto</p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -49,20 +54,28 @@
     </nav>
 
     <!-- Presentación -->
-    <br>
-    <div class="container">
-        <h1 class="text-center">Hola!</h1>
-        <br>
-        <img src="img/edu.jpg" class="foto-erziok rounded-circle" width="184" height="184">
-        <br>
-        <p>Mi nombre es Eduardo, también conocido como Erziok</p>
-        <p>Tengo 22 años, soy de Chile y actualmente estoy cursando la carrera de Ingeniería en Informática</p>
-    </div>
+    <section id="hero">
+        <div class="container">
+            <br>
+            <h1 class="text-center" id="presentacion">Hola!</h1>
+            <br>
+            <img src="img/edu.jpg" class="foto-erziok rounded-circle" width="184" height="184">
+            <br>
+            <h3 id="presentacion" class="text-center">Mi nombre es Eduardo, también conocido como Erziok</h3>
+            <h4 id="presentacion" class="text-center">Tengo 22 años, soy de Chile y actualmente estoy cursando la
+                carrera de Ingeniería en Informática</h4><br><br>
+            <center><a class="button" href="#herramientas">Acerca de mí</a></center>
+            <br><br>
+        </div>
+    </section>
+
 
     <div class="container">
-        <br><br>
         <hr>
-        <h1 class="text-center" id="herramientas">Algunos de los lenguajes y tecnologías que manejo:</h1>
+        <br>
+        <div class="shadow p-3 mb-5 bg-white rounded text-center" id="herramientas">
+            <h1>Algunos de los lenguajes y tecnologías que manejo</h1>
+        </div>
         <br><br>
 
         <div class="row container text-center">
@@ -113,7 +126,9 @@
 
         <br><br>
         <hr>
-        <h1 class="text-center">Proyectos en los que he trabajado:</h1>
+        <div class="shadow p-3 mb-5 bg-white rounded text-center color">
+            <h1>Proyectos en los que he trabajado</h1>
+        </div>
         <br>
         <div class="card text-center">
             <div class="card-header">
@@ -145,7 +160,9 @@
         </div>
         <hr>
         <br>
-        <h1 class="text-center" id="contacto">Redes sociales:</h1>
+        <div class="shadow p-3 mb-5 bg-white rounded text-center" id="contacto">
+            <h1>Redes sociales</h1>
+        </div>
         <br>
         <div class="row container text-center">
             <div class="col-6 col-md-6 col-lg-6" style="text-align: right;">
