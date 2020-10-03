@@ -58,7 +58,21 @@ h1{
 }
 
 .nav-link:hover{
-    color: #1a1a1a;
+	color: white;
+}
+
+.cool-link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: white;
+	transition: width .3s;
+}
+
+.cool-link:hover::after{
+	width: 100%;
+	transition: width .3s;
 }
 
 .logo-brand{
@@ -99,17 +113,6 @@ h1{
     color: #ffffff;
 }
 /* Fin Footer */
-
-/* Volver inicio */
-#btn-volver-inicio{
-    background-color: darkslategray;
-    border-radius: 0;
-
-}
-#btn-volver-inicio i{
-    color: #fff;
-}
-/* Fin Volver inicio */
 
 p{
     text-align: center;
@@ -167,10 +170,28 @@ h5{
     display: inline-block;
     margin: auto;
     font-size: 16px;
-  }
+}
 
-  #texto-nav{
+#texto-nav{
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: large;
-  }
+}
+
+/* Boton volver arriba */
+
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: rgb(238, 238, 238);
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	font-size: 22px;
+}
+
+
