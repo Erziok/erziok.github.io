@@ -12,6 +12,11 @@ h1{
     font-family: 'Titillium Web', sans-serif;
 }
 
+.fondo_titulo{
+    background-color:  #1a1a1a;
+    color: #ffffff;
+}
+
 /* Margenes */
 .topmargin-lg{
     margin-top: 60px;
@@ -47,7 +52,7 @@ h1{
 
 /* Navbar */
 .navbar{
-    background-color: darkslategray;
+    background-color: #161616;
     box-shadow: 0 2px 4px 0 rgba(0,0,0, .05);
     min-height: 30px;
 }
@@ -153,6 +158,7 @@ h5{
 .contenedor {overflow:hidden;}
 
 #hero{
+    background-image: url(img/background.jpg) ;
     background-color: #1a1a1a;
 }
 
@@ -184,7 +190,7 @@ h5{
 	position: fixed;
 	width: 50px;
 	height: 50px;
-	background: rgb(238, 238, 238);
+	background: rgb(180, 180, 180);
 	bottom: 40px;
 	right: 50px;
 	text-decoration: none;
