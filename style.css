@@ -39,6 +39,21 @@ h1{
     display: inline-block;
 }
 
+.btn-project {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.btn-project:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #161616;
+}
+
 .btn-light{
     background-color: #ffffff;
     color: #1a1a1a;
@@ -167,6 +182,7 @@ h5{
 }
 
 .button {
+    border-radius: 5px;
     background-color: white;
     border: none;
     color: black;
@@ -176,6 +192,13 @@ h5{
     display: inline-block;
     margin: auto;
     font-size: 16px;
+    transition: 0.7s;
+}
+
+.button:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 #texto-nav{
@@ -190,17 +213,44 @@ h5{
 	position: fixed;
 	width: 50px;
 	height: 50px;
-	background: rgb(180, 180, 180);
+	background: #1a1a1a;
 	bottom: 40px;
 	right: 50px;
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
-	color: black;
+	color: white;
 	font-size: 22px;
+}
+
+.gotopbtn:hover {
+    text-decoration: none;
+    color: white;
 }
 
 #idioma{
     margin: 5px;
 }
+
+.project {
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin: 15px;
+    -webkit-box-shadow: 1px 1px 17px -3px rgba(0,0,0,0.8);
+    -moz-box-shadow: 1px 1px 17px -3px rgba(0,0,0,0.8);
+    box-shadow: 1px 1px 17px -3px rgba(0,0,0,0.15);
+}
+
+.language {
+    margin: 20px;
+    transition: 0.7s;
+}
+
+.language:hover {
+    transform: scale(1.3);
+}
+
+
+
 
