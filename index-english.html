@@ -300,8 +300,12 @@
 
     <footer class="page-footer font-small indigo" id="contenedor-footer">
         <div class="footer-copyright text-center py-3" id="footer">
-            <h4>© 2023 Erziok</h4>
+            <h4>© <span id="year"></span> Erziok</h4>
     </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
